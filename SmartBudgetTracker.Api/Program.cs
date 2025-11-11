@@ -147,16 +147,8 @@ namespace SmartBudgetTracker.Api
                         }));
             });
 
-            //builder.Services.AddHangfire(config => config
-            //        .UseSimpleAssemblyNameTypeSerializer()
-            //        .UseRecommendedSerializerSettings()
-            //        .UseSqlServerStorage(builder.Configuration.GetConnectionString("HangfireConnection")));
-
-            //builder.Services.AddHangfireServer();
-
             var app = builder.Build();
 
-            //app.UseHangfireDashboard();
 
             if (app.Environment.IsDevelopment())
             {
@@ -185,12 +177,6 @@ namespace SmartBudgetTracker.Api
             }
 
             app.UseMiddleware<ExceptionHandlingMiddleware>();
-
-            //RecurringJob.AddOrUpdate<IRecurringTransactionService>(
-            //    "process-due-transactions-job",      
-            //    service => service.ProcessDueRecurringTransactionsAsync(),
-            //    Cron.Daily());
-
             app.Run();
         }
     }
