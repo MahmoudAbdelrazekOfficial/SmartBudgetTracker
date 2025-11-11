@@ -1,0 +1,6 @@
+@Smart_Budget_Tracker_HostAddress = http://localhost:5188
+
+GET {{Smart_Budget_Tracker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
