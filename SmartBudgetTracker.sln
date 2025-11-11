@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBudgetTracker.Api", "SmartBudgetTracker.Api\SmartBudgetTracker.Api.csproj", "{61AB9F3E-CDCE-4DF1-AF4B-DACADC2DC463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBudgetTracker.Tests", "SmartBudgetTracker.Tests\SmartBudgetTracker.Tests.csproj", "{1D1342F6-5C04-4EA1-9406-953B2C41BE80}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{61AB9F3E-CDCE-4DF1-AF4B-DACADC2DC463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61AB9F3E-CDCE-4DF1-AF4B-DACADC2DC463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61AB9F3E-CDCE-4DF1-AF4B-DACADC2DC463}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D1342F6-5C04-4EA1-9406-953B2C41BE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D1342F6-5C04-4EA1-9406-953B2C41BE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D1342F6-5C04-4EA1-9406-953B2C41BE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D1342F6-5C04-4EA1-9406-953B2C41BE80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
